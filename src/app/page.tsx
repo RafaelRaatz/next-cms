@@ -1,6 +1,10 @@
 import { Submenu } from "@/components";
+import { getDataHome } from "@/utils/actions/get-data";
 
-export default function Home() {
+export default async function Home() {
+  const data = await getDataHome();
+
+  console.log(data);
   return (
     <main>
       <Submenu />

@@ -93,7 +93,7 @@
   }
 }
 
-/* Estilização resposiva */
+/* Estilização resposiva about */
 
 @media (min-width: 640px) {
   .containerAbout {
@@ -117,5 +117,26 @@
   .bannerAbout {
     width: 650px;
     height: 450px;
+  }
+}
+
+/* Estilização resposiva serviços */
+
+@media (min-width: 640px) {
+  .services {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .innerService {
+    width: 280px;
+    height: 200px;
+  }
+
+  .serviceTitle {
+    font-size: 30px;
+    margin-top: 54px;
   }
 }

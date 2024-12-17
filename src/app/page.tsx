@@ -1,4 +1,4 @@
-import { About, Container, Hero, Submenu } from "@/components";
+import { About, Container, Footer, Hero, Submenu } from "@/components";
 import { getDataHome } from "@/utils/actions/get-data";
 import { HomeProps } from "@/utils/home.type";
 import { Phone } from "lucide-react";
@@ -19,6 +19,7 @@ export default async function Home() {
 
       <Container>
         <About object={object} />
+        <Footer object={object} />
       </Container>
     </main>
   );

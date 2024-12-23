@@ -48,6 +48,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
               priority={true}
               quality={100}
               fill={true}
+              sizes="(max-width: 480px) 100vw, (max-width: 1024) 75vw 50vw"
             />
           </div>
         </section>

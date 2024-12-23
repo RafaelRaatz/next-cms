@@ -51,11 +51,6 @@ export function Footer({ object }: HomeProps) {
         <Phone size={24} color="#fff" />
         Fale com nosso Atendente
       </a>
-
-      <p className={styles.copyText}>
-        Todos direitos reservados {object.title} @
-        {`${new Date().getFullYear()}`}
-      </p>
     </footer>
   );
 }

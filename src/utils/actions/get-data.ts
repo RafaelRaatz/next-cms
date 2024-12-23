@@ -43,7 +43,7 @@ export async function getItemBySlug(itemSlug: string) {
     read_key: process.env.READ_KEY as string,
   });
 
-  const url = `${baseUrl}?${queryParams.toString}`;
+  const url = `${baseUrl}?${queryParams.toString()}`;
 
   try {
     const res = await fetch(url, { next: { revalidate: 120 } });

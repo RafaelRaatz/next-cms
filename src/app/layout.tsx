@@ -17,6 +17,17 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "DevMotors",
   description: "Sua oficina especializada",
+  keywords: ["ofinicia", "oficina de carros", "carros", "manutenção"],
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+    },
+  },
 };
 
 export default function RootLayout({
